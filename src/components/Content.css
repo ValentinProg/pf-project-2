@@ -1,39 +1,92 @@
 .wrapper {
-   display: flex;
-   justify-content: center;
-   margin:  10rem;
-    /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  margin: 10rem;
 }
 
-
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px 0px 6px 3px grey;
+  background-color: blanchedalmond;
+  height: auto;
+  width: auto;
 
-    background-color: blanchedalmond;
-    height: auto;
-    width: auto;
-    /* padding: 30px; */
+
 }
 
 .contacts {
-    padding: 20px;
+ border-right: 1px solid grey;
+  padding: 20px;
+  height: auto;
+  width: auto;
+  background-color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+  
+}
+
+.contacts div {
+    border-bottom: 1px solid grey;
     height: auto;
-    width: auto;
-    background-color: blue;
+    padding: 2px;
+   
+}
+
+.contacts span {
+    color: #4e04fc;
+}
+
+.socialMedia svg {
+  margin: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.socialMedia svg :hover {
+  color: #4e04fc;
+  transition: all 0.3s ease-out;
 }
 
 .main {
   padding: 20px;
-    height: auto;
-    width: auto;
-    background-color: brown;
-   
-   text-align: left;
+  height: auto;
+  width: auto;
+  background-color: white;
+
+  text-align: left;
+}
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
 }
 
 .mainButtons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.mainButtons button {
+  background-color: #430ac7;
+  color: white;
+  border: 1px solid #430ac7;
+  transition: all 0.3s ease-out;
+  padding: 0.3rem 1rem;
+  border-radius: 6px;
+  margin: 3px;
+  cursor: pointer;
+}
+
+.mainButtons button:hover,
+button:active {
+  background-color: #4e04fc;
+  border-color: #4e04fc;
+}
+
+.mainSkills {
+  border-top: 1px solid grey;
 }

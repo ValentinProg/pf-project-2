@@ -1,7 +1,13 @@
 import React from "react";
+import ContactForm from "./ContactForm/ContactForm";
 import "./Content.css";
+import Github from '@mui/icons-material/GitHub'
+import LinkedIn from '@mui/icons-material/LinkedIn'
+import Telegram from '@mui/icons-material/Telegram'
+import Gmail from '@mui/icons-material/Google'
 
-const Content = () => {
+
+function Content() {
   return (
     <div className="wrapper">
       <div className="content">
@@ -21,17 +27,26 @@ const Content = () => {
           <div>
             <h2>Contacts</h2>
             <span>November 2022 - Current</span>
+            {/* <ContactForm /> */}
+          </div>
+          <div className="socialMedia">
+            <a href="https://github.com/ValentinProg">
+              <Github/>
+            </a>
+            <LinkedIn />
+            <Telegram/>
+            <Gmail/>
           </div>
         </div>
         <div className="main">
-          <div className="mainButtons">
-            <span>About</span>
-            <div>
+          <div className="mainHeader">
+            <h2>About</h2>
+            <div className="mainButtons">
               <button>dowland CV</button>
               <button>projects</button>
             </div>
           </div>
-          <div>
+          <div className="mainSkills">
             <h2>Skills</h2>
             <ul>
               <li>HTML, CSS, Javascript, Typescript</li>
@@ -85,6 +100,6 @@ const Content = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Content;

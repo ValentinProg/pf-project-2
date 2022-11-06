@@ -1,11 +1,12 @@
 import React from "react";
 import ContactForm from "./ContactForm/ContactForm";
 import "./Content.css";
-import Github from '@mui/icons-material/GitHub'
-import LinkedIn from '@mui/icons-material/LinkedIn'
-import Telegram from '@mui/icons-material/Telegram'
-import Gmail from '@mui/icons-material/Google'
-
+import Github from "@mui/icons-material/GitHub";
+import LinkedIn from "@mui/icons-material/LinkedIn";
+import Telegram from "@mui/icons-material/Telegram";
+import Gmail from "@mui/icons-material/Google";
+import CV from "../asets/CV.pdf";
+import { Download } from "@mui/icons-material";
 
 function Content() {
   return (
@@ -31,19 +32,23 @@ function Content() {
           </div>
           <div className="socialMedia">
             <a href="https://github.com/ValentinProg">
-              <Github/>
+              <Github />
             </a>
             <LinkedIn />
-            <Telegram/>
-            <Gmail/>
+            <Telegram />
+            <Gmail />
           </div>
         </div>
         <div className="main">
           <div className="mainHeader">
             <h2>About</h2>
             <div className="mainButtons">
-              <button>dowland CV</button>
-              <button>projects</button>
+              <a href={CV} download={CV}>
+                <button>
+                  <Download />
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
           <div className="mainSkills">

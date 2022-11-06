@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin: 10rem;
+ 
 }
 
 .content {
@@ -12,7 +13,7 @@
   background-color: blanchedalmond;
   height: auto;
   width: auto;
-
+ border-radius: 15px;
 
 }
 
@@ -24,11 +25,15 @@
   background-color: ghostwhite;
   display: flex;
   flex-direction: column;
-  justify-content: space-around
-  
+  justify-content: space-around;
+ border-bottom-left-radius: 15px;
+ border-top-left-radius: 15px;
+}
+.contacts h2 {
+  margin: 5px;
 }
 
-.contacts div {
+.contacts div:nth-last-child(n + 2)  {
     border-bottom: 1px solid grey;
     height: auto;
     padding: 2px;
@@ -38,6 +43,11 @@
 .contacts span {
     color: #4e04fc;
 }
+
+/* .socialMedia  {
+  
+} */
+
 
 .socialMedia svg {
   margin: 10px;
@@ -55,8 +65,9 @@
   height: auto;
   width: auto;
   background-color: white;
-
   text-align: left;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .mainHeader {
@@ -65,12 +76,17 @@
   height: auto;
 }
 
+
 .mainButtons {
   display: flex;
   align-items: center;
 }
+.mainButtons a {
+  text-decoration: none;
+}
 
-.mainButtons button {
+  
+.mainButtons button  {
   background-color: #430ac7;
   color: white;
   border: 1px solid #430ac7;
@@ -79,6 +95,10 @@
   border-radius: 6px;
   margin: 3px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  
 }
 
 .mainButtons button:hover,
@@ -87,6 +107,49 @@ button:active {
   border-color: #4e04fc;
 }
 
+
+
+
 .mainSkills {
   border-top: 1px solid grey;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .mainButtons button {
+    padding: 0.1rem 0.5rem;
+    border-radius: 6px;
+    margin: 1px;
+    
+  }
+
+  .main , .contacts {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  
+  .contacts h2, .main h2{
+    font-size: 16px;
+  }
+  .main , .contacts {
+    padding: 10px;
+  }
+  .contacts span {
+    font-size: 12px;
+  }
+  .mainButtons button {
+    padding: 0.1rem 0.5rem;
+    border-radius: 6px;
+    margin: 1px;
+    
+  }
+
+  .mainButtons  {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
+

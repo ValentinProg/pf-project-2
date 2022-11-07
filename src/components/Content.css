@@ -1,29 +1,34 @@
 .wrapper {
   display: flex;
-  justify-content: center;
-  margin: 10rem;
+  /* justify-content: center; */
+  /* margin: 5rem; */
+/* padding: 5rem; */
+  /* margin: 0 auto; */
+
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   box-shadow: 0px 0px 6px 3px grey;
   background-color: blanchedalmond;
   height: auto;
   width: auto;
   border-radius: 15px;
+  /* margin: 0 auto;
+   */
 }
 
 .contacts {
-  border-right: 1px solid grey;
-  padding: 20px;
+  border-right: 1px solid rgb(215, 213, 213);
+  padding: 10px;
   height: auto;
   width: auto;
   background-color: ghostwhite;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
 }
@@ -34,13 +39,15 @@ height: 15rem;
 
 }
 .contacts h2 {
-  margin: 5px;
+ 
+  font-size: 18px;
 }
 
 .contacts div:nth-last-child(n + 2) {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgb(215, 213, 213);
   height: auto;
-  padding: 2px;
+  padding: 1px;
+  
 }
 
 .contacts span {
@@ -102,8 +109,17 @@ button:active {
 }
 
 .mainSkills {
-  border-top: 1px solid grey;
+  border-top: 1px solid  rgb(233, 228, 228);
 }
+
+
+@media only screen and (max-width: 1444px) {
+    .main,
+  .contacts {
+    padding: 10px;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .content {

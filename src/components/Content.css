@@ -1,6 +1,6 @@
 .wrapper {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   /* margin: 5rem; */
 /* padding: 5rem; */
   /* margin: 0 auto; */
@@ -125,7 +125,7 @@ button:active {
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
    
   }
 

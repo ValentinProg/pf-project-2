@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   margin: 10rem;
- 
 }
 
 .content {
@@ -13,12 +12,11 @@
   background-color: blanchedalmond;
   height: auto;
   width: auto;
- border-radius: 15px;
-
+  border-radius: 15px;
 }
 
 .contacts {
- border-right: 1px solid grey;
+  border-right: 1px solid grey;
   padding: 20px;
   height: auto;
   width: auto;
@@ -26,28 +24,28 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
- border-bottom-left-radius: 15px;
- border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.contacts img {
+width: auto;
+height: 15rem;
+
 }
 .contacts h2 {
   margin: 5px;
 }
 
-.contacts div:nth-last-child(n + 2)  {
-    border-bottom: 1px solid grey;
-    height: auto;
-    padding: 2px;
-   
+.contacts div:nth-last-child(n + 2) {
+  border-bottom: 1px solid grey;
+  height: auto;
+  padding: 2px;
 }
 
 .contacts span {
-    color: #4e04fc;
+  color: rgb(0, 94, 255);
 }
-
-/* .socialMedia  {
-  
-} */
-
 
 .socialMedia svg {
   margin: 10px;
@@ -56,7 +54,7 @@
 }
 
 .socialMedia svg :hover {
-  color: #4e04fc;
+  color: rgb(0, 94, 255);
   transition: all 0.3s ease-out;
 }
 
@@ -76,7 +74,6 @@
   height: auto;
 }
 
-
 .mainButtons {
   display: flex;
   align-items: center;
@@ -85,11 +82,9 @@
   text-decoration: none;
 }
 
-  
-.mainButtons button  {
-  background-color: #430ac7;
+.mainButtons button {
+  background-color: rgb(0, 94, 255);
   color: white;
-  border: 1px solid #430ac7;
   transition: all 0.3s ease-out;
   padding: 0.3rem 1rem;
   border-radius: 6px;
@@ -98,42 +93,65 @@
   display: flex;
   align-items: center;
   border: none;
-  
 }
 
 .mainButtons button:hover,
 button:active {
-  background-color: #4e04fc;
-  border-color: #4e04fc;
+  background-color: rgb(6, 74, 192);
+
 }
-
-
-
 
 .mainSkills {
   border-top: 1px solid grey;
 }
 
-
 @media only screen and (max-width: 768px) {
-  .mainButtons button {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+
+  .main {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+   
+  }
+  .contacts {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+
+
+  /* .mainButtons button {
     padding: 0.1rem 0.5rem;
     border-radius: 6px;
     margin: 1px;
-    
-  }
+  } */
 
-  .main , .contacts {
+  /* .main,
+  .contacts {
     padding: 10px;
-  }
+  } */
 }
 
-@media only screen and (max-width: 425px) {
-  
-  .contacts h2, .main h2{
+/* @media only screen and (max-width: 425px) {
+  .mainHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .contacts h2,
+  .main h2 {
     font-size: 16px;
   }
-  .main , .contacts {
+  .main,
+  .contacts {
     padding: 10px;
   }
   .contacts span {
@@ -143,13 +161,10 @@ button:active {
     padding: 0.1rem 0.5rem;
     border-radius: 6px;
     margin: 1px;
-    
   }
 
-  .mainButtons  {
+  .mainButtons {
     display: flex;
     flex-direction: column;
-    
   }
-}
-
+} */

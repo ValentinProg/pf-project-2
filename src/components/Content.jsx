@@ -7,6 +7,7 @@ import Telegram from "@mui/icons-material/Telegram";
 import Gmail from "@mui/icons-material/Google";
 import CV from "../asets/CV.pdf";
 import { Download } from "@mui/icons-material";
+import  Image  from "../asets/prog1.png";
 
 function Content() {
   return (
@@ -14,6 +15,7 @@ function Content() {
       <div className="content">
         <div className="contacts">
           <div>
+            <img src={Image}  />
             <h2>Kovalenko Valentin</h2>
             <span>Frontend Developer</span>
           </div>
@@ -34,9 +36,13 @@ function Content() {
             <a href="https://github.com/ValentinProg">
               <Github />
             </a>
+            <a href="https://t.me/ValentinKovalenko">
             <LinkedIn />
+            </a>
+            <a href="https://t.me/ValentinKovalenko">
             <Telegram />
-            <Gmail />
+            </a>
+            {/* <Gmail /> */}
           </div>
         </div>
         <div className="main">

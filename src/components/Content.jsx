@@ -11,24 +11,24 @@ import  Image  from "../asets/prog1.png";
 
 function Content() {
   return (
-    <div className="wrapper">
+    // <div className="wrapper">
       <div className="content">
         <div className="contacts">
-          <div>
+          <div className="contactsBlocks">
             <img src={Image}  />
             <h2>Kovalenko Valentin</h2>
             <span>Frontend Developer</span>
           </div>
-          <div>
+          <div className="contactsBlocks">
             <h2>Location</h2>
             <span>Ukraine, Shostka</span>
           </div>
-          <div>
+          <div className="contactsBlocks">
             <h2>Experience</h2>
             <span>November 2022 - Current</span>
           </div>
-          <div>
-            <h2>Contacts</h2>
+          <div className="contactsBlocks">
+            <h2 >Contacts</h2>
             <span>November 2022 - Current</span>
             {/* <ContactForm /> */}
           </div>
@@ -109,7 +109,7 @@ function Content() {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 }
 

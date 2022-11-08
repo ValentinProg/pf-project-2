@@ -1,6 +1,6 @@
 .wrapper {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   /* margin: 5rem; */
 /* padding: 5rem; */
   /* margin: 0 auto; */
@@ -31,6 +31,7 @@
   /* justify-content: space-around; */
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
+
 }
 
 .contacts img {
@@ -39,8 +40,14 @@ height: 15rem;
 
 }
 .contacts h2 {
- 
   font-size: 18px;
+}
+
+.contactsBlocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .contacts div:nth-last-child(n + 2) {
@@ -53,6 +60,9 @@ height: 15rem;
 .contacts span {
   color: rgb(0, 94, 255);
 }
+/* .socialMedia {
+  
+} */
 
 .socialMedia svg {
   margin: 10px;
@@ -114,6 +124,11 @@ button:active {
 
 
 @media only screen and (max-width: 1444px) {
+  .App {
+    Padding: 30px 100px ;
+  
+  }
+
     .main,
   .contacts {
     padding: 10px;
@@ -122,6 +137,12 @@ button:active {
 
 
 @media only screen and (max-width: 768px) {
+
+  .App {
+    Padding: 30px 50px ;
+  
+  }
+
   .content {
     display: flex;
     flex-direction: column;

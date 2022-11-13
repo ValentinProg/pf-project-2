@@ -7,109 +7,126 @@ import Telegram from "@mui/icons-material/Telegram";
 import Gmail from "@mui/icons-material/Google";
 import CV from "../asets/CV.pdf";
 import { Download } from "@mui/icons-material";
-import  Image  from "../asets/prog1.png";
+import Image from "../asets/prog2.jpg";
 
 function Content() {
   return (
-    // <div className="wrapper">
-      <div className="content">
-        <div className="contacts">
-          <div className="contactsBlocks">
-            <img src={Image}  />
-            <h2>Kovalenko Valentin</h2>
-            <span>Frontend Developer</span>
-          </div>
-          <div className="contactsBlocks">
-            <h2>Location</h2>
-            <span>Ukraine, Shostka</span>
-          </div>
-          <div className="contactsBlocks">
-            <h2>Experience</h2>
-            <span>November 2022 - Current</span>
-          </div>
-          <div className="contactsBlocks">
-            <h2 >Contacts</h2>
-            <span>November 2022 - Current</span>
-            {/* <ContactForm /> */}
-          </div>
-          <div className="socialMedia">
+    <div className="content">
+      <div className="contacts">
+        <div className="contactsBlocks">
+          <img src={Image} />
+          <h2>Kovalenko Valentin</h2>
+          <span>Frontend Developer</span>
+          <div className="border"></div>
+        </div>
+        <div className="contactsBlocks">
+          <h2>Location</h2>
+          <span>Ukraine, Shostka</span>
+          <span>Ready to remote work</span>
+          <div className="border"></div>
+        </div>
+        <div className="contactsBlocks">
+          <h2>Experience</h2>
+          <span>November 2022 - Current</span>
+          <div className="border"></div>
+        </div>
+        <div className="contactsBlocks">
+          <h2>Contacts</h2>
+
+          {/* <ContactForm /> */}
+        </div>
+        <div className="socialMedia">
+          <div className="github">
             <a href="https://github.com/ValentinProg">
               <Github />
             </a>
+          </div>
+          <div className="linkedin">
             <a href="https://www.linkedin.com/in/%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD-%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE-705b8b256/">
-            <LinkedIn />
+              <LinkedIn />
             </a>
+          </div>
+
+          <div className="teleram">
             <a href="https://t.me/ValentinKovalenko">
-            <Telegram />
+              <Telegram />
             </a>
-            {/* <Gmail /> */}
-          </div>
-        </div>
-        <div className="main">
-          <div className="mainHeader">
-            <h2>About</h2>
-            <div className="mainButtons">
-              <a href={CV} download={CV}>
-                <button>
-                  <Download />
-                  Download CV
-                </button>
-              </a>
-            </div>
-          </div>
-          <div className="mainSkills">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML, CSS, Javascript, Typescript</li>
-              <li>React, Web3</li>
-              <li>Redux, GraphQL</li>
-              <li>Git/GitHub, REST APIs, Jira, Scrum</li>
-            </ul>
-          </div>
-          <div>
-            <h2>Work Experience</h2>
-            <span>
-              Frontend Developer Tech Band Fulltime Feb 2021 - Current
-            </span>
-            <ul>
-              <li>
-                Created user interfaces and configured the logic of user
-                interaction
-              </li>
-              <li>Developed responsive and mobile versions of web pages</li>
-              <li>
-                Implemented interaction of React applications with smart
-                contracts and Web3.js library
-              </li>
-              <li>
-                Worked in an agile environment, with daily standups, spent 2
-                hours every two weeks planning sprints and sprint retrospectives
-              </li>
-              <li>Wrote documentation for developed projects</li>
-              <li>
-                Tested and debugged more of 10 projects with various development
-                teams
-              </li>
-              <li>
-                Worked with quality assurance to get new pages/products tested,
-                and addressed any issues
-              </li>
-            </ul>
-            <span>
-              Frontend Developer AquaLux Systems Fulltime Nov 2020 - Feb 2021
-            </span>
-            <ul>
-              <li>
-                Utilized HTML, CSS, and React to create 30+ responsive landing
-                pages for company
-              </li>
-              <li>Developed of the data storage logic with Redux</li>
-              <li>Corrected and rewrote legacy code to modern standards</li>
-            </ul>
           </div>
         </div>
       </div>
-    // </div>
+      <div className="main">
+        <div className="mainHeader">
+          <h2>About</h2>
+          <div className="mainButtons">
+            <a href={CV} download={CV}>
+              <button>
+                <Download />
+                Download CV
+              </button>
+            </a>
+          </div>
+        </div>
+        <div className="mainSkills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML, CSS, Javascript</li>
+            <li>React</li>
+            <li>Zustand</li>
+            <li>Git/GitHub, REST APIs</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Work Experience</h2>
+          <span>
+            Frontend Developer
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 16 6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#797979"
+              class="bi bi-dot"
+            >
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+            </svg>
+            AquaLux Systems
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 16 6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#797979"
+              class="bi bi-dot"
+            >
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+            </svg>
+            Fulltime
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 16 6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#797979"
+              class="bi bi-dot"
+            >
+              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+            </svg>
+            <span className="workData">Aug 2022 - Oct 2022</span>
+          </span>
+          <ul>
+            <li>
+              Created user interfaces and configured the logic of user
+              interaction
+            </li>
+            <li>
+              Utilized HTML, CSS, and React to create 10+ responsive landing
+              pages for company
+            </li>
+            <li>Developed of the data storage logic with Zustand</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   );
 }
 

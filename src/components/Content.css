@@ -3,8 +3,9 @@
   flex-direction: row;
   box-shadow: 0px 0px 6px 3px grey;
   background-color: blanchedalmond;
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
+  width: 100%;
   border-radius: 15px;
 }
 
@@ -26,7 +27,8 @@
   height: 15rem;
 }
 .contacts h2 {
-  font-size: 18px;
+  font-size: 16px;
+ margin-bottom: 6px;
 }
 
 .contactsBlocks {
@@ -35,37 +37,67 @@
   align-items: center;
 }
 
+.border {
+  height: 1px;
+    background-color: rgb(216, 216, 216);
+    margin: 1em 0px;
+    width: 100%;
+
+    margin-bottom: 0px;
+}
+
 .contacts div:nth-last-child(n + 2) {
-  border-bottom: 1px solid rgb(215, 213, 213);
+  /* border-bottom: 1px solid rgb(215, 213, 213); */
   height: auto;
   padding: 1px;
 }
 
 .contacts span {
-  color: black;
+  color: grey;
 }
 
 .socialMedia {
   display: flex;
 justify-content: center;
 padding: 20px;
-
+gap: 20px;
 }
 
 .socialMedia svg {
+  color: grey;
   margin: 10px;
   font-size: 2rem;
   cursor: pointer;
+  height: 40px;
+  width: auto;
 }
 
-.socialMedia :hover {
-  color: grey;
+.github svg:hover {
+  /* color: rgb(2,3,129);   */
+  color: rgb(155,81,224);  
   transition: all 0.3s ease-out;
 }
+
+.linkedin svg:hover {
+  color: #0a66c2;  
+  transition: all 0.3s ease-out;
+}
+
+.teleram svg:hover {
+  color: #3390ec;  
+  transition: all 0.3s ease-out;
+}
+
+
+/* .socialMedia :hover {
+  color: grey;
+  transition: all 0.3s ease-out;
+} */
 
 .main {
   flex: 3;
   padding: 20px;
+  padding-top: 10px;
   height: auto;
   width: auto;
   background-color: white;
@@ -78,6 +110,10 @@ padding: 20px;
   display: flex;
   justify-content: space-between;
   height: auto;
+  margin-bottom: 5px;
+}
+.mainHeader h2 {
+  margin: 0px;
 }
 
 .mainButtons {
@@ -89,7 +125,10 @@ padding: 20px;
 }
 
 .mainButtons button {
-  background-color: rgb(0, 94, 255);
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(0, 94, 255); */
+  /* background-color: #378fe9; */
+  background-color: #0a66c2;
   color: white;
   transition: all 0.3s ease-out;
   padding: 0.3rem 1rem;
@@ -99,15 +138,21 @@ padding: 20px;
   display: flex;
   align-items: center;
   border: none;
+  gap: 5px;
 }
 
 .mainButtons button:hover,
 button:active {
-  background-color: rgb(6, 74, 192);
+  /* background-color: rgb(6, 74, 192); */
+  background-color: #004182;
 }
 
 .mainSkills {
   border-top: 1px solid rgb(233, 228, 228);
+}
+
+.workData {
+  color: grey;
 }
 
 @media only screen and (max-width: 1444px) {
@@ -115,13 +160,13 @@ button:active {
     padding: 30px 100px;
   }
 
-  .main,
+  /* .main,
   .contacts {
     padding: 10px;
-  }
+  } */
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 800px) {
   .App {
     padding: 30px 50px;
   }

@@ -7,7 +7,7 @@ import Telegram from "@mui/icons-material/Telegram";
 import Gmail from "@mui/icons-material/Google";
 import CV from "../asets/CV.pdf";
 import { Download } from "@mui/icons-material";
-import Image from "../asets/prog3.jpg";
+import Image from "../asets/prog7.png";
 
 function Content() {
   return (

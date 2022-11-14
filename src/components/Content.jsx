@@ -1,10 +1,9 @@
 import React from "react";
-import ContactForm from "./ContactForm/ContactForm";
+// import ContactForm from "./ContactForm/ContactForm";
 import "./Content.css";
 import Github from "@mui/icons-material/GitHub";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import Telegram from "@mui/icons-material/Telegram";
-import Gmail from "@mui/icons-material/Google";
 import CV from "../asets/CV.pdf";
 import { Download } from "@mui/icons-material";
 import Image from "../asets/prog7.png";
@@ -14,7 +13,7 @@ function Content() {
     <div className="content">
       <div className="contacts">
         <div className="contactsBlocks">
-          <img src={Image} />
+          <img src={Image} alt="my cv card"/>
           <h2>Kovalenko Valentin</h2>
           <span>Frontend Developer</span>
           <div className="border"></div>

@@ -6,7 +6,7 @@ import LinkedIn from "@mui/icons-material/LinkedIn";
 import Telegram from "@mui/icons-material/Telegram";
 import CV from "../asets/CV.pdf";
 import { Download } from "@mui/icons-material";
-import Image from "../asets/prog7.png";
+import Image from "../asets/prog4.png";
 
 function Content() {
   return (

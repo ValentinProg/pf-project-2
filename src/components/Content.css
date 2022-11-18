@@ -26,7 +26,7 @@
 }
 .contacts h2 {
   font-size: 16px;
- margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .contactsBlocks {
@@ -35,13 +35,19 @@
   align-items: center;
 }
 
+.contactsBlocks img {
+  border-radius: 10px;
+}
+
+
+
 .border {
   height: 1px;
-    background-color: rgb(216, 216, 216);
-    margin: 1em 0px;
-    width: 100%;
+  background-color: rgb(216, 216, 216);
+  margin: 1em 0px;
+  width: 100%;
 
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .contacts div:nth-last-child(n + 2) {
@@ -56,9 +62,10 @@
 
 .socialMedia {
   display: flex;
-justify-content: center;
-padding: 20px;
-gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+  padding-top: 0px;
 }
 
 .socialMedia svg {
@@ -66,26 +73,26 @@ gap: 20px;
   margin: 10px;
   font-size: 2rem;
   cursor: pointer;
-  height: 40px;
+  height: 30px;
   width: auto;
+  margin-top: 0px;
 }
 
 .github svg:hover {
   /* color: rgb(2,3,129);   */
-  color: rgb(155,81,224);  
+  color: rgb(155, 81, 224);
   transition: all 0.3s ease-out;
 }
 
 .linkedin svg:hover {
-  color: #0a66c2;  
+  color: #0a66c2;
   transition: all 0.3s ease-out;
 }
 
 .teleram svg:hover {
-  color: #3390ec;  
+  color: #3390ec;
   transition: all 0.3s ease-out;
 }
-
 
 /* .socialMedia :hover {
   color: grey;
@@ -157,8 +164,6 @@ button:active {
   .App {
     padding: 30px 100px;
   }
-
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -169,7 +174,6 @@ button:active {
   .content {
     display: flex;
     flex-direction: column;
-
   }
 
   .main {

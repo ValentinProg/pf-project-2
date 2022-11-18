@@ -4,7 +4,7 @@ import "./Content.css";
 import Github from "@mui/icons-material/GitHub";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import Telegram from "@mui/icons-material/Telegram";
-import CV from "../asets/CV.pdf";
+import CV from "../asets/Kovalenko_CV.pdf";
 import { Download } from "@mui/icons-material";
 import Image from "../asets/prog4.png";
 
@@ -57,7 +57,7 @@ function Content() {
         <div className="mainHeader">
           <h2>About</h2>
           <div className="mainButtons">
-            <a href={CV} download={CV}>
+            <a href={CV} download="Kovalenko_CV">
               <button>
                 <Download />
                 Download CV

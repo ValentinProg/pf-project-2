@@ -41,7 +41,7 @@ function Content() {
             </a>
           </div>
           <div className="linkedin">
-            <a href="https://www.linkedin.com/in/%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD-%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE-705b8b256/">
+            <a href="https://linkedin.com/in/valkovalenko">
               <LinkedIn />
             </a>
           </div>

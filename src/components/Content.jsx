@@ -42,7 +42,7 @@ function Content() {
           </div>
           <div className="linkedin">
             <a href="https://linkedin.com/in/valkovalenko">
-              <LinkedIn />
+              <LinkedIn/>
             </a>
           </div>
 

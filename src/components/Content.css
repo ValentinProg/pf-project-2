@@ -71,11 +71,16 @@
 .socialMedia svg {
   color: grey;
   margin: 10px;
-  font-size: 2rem;
   cursor: pointer;
   height: 30px;
   width: auto;
   margin-top: 0px;
+  padding: 0px;
+}
+
+.github svg {
+  height: 28px;
+  margin-top: 1px;
 }
 
 .github svg:hover {

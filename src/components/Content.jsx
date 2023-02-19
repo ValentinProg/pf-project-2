@@ -20,7 +20,7 @@ function Content() {
         </div>
         <div className="contactsBlocks">
           <h2>Location</h2>
-          <span>Ukraine, Shostka</span>
+          <span>Ukraine, Kyiv</span>
           <span>Ready to remote work</span>
           <div className="border"></div>
         </div>

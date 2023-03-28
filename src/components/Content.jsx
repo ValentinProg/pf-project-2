@@ -4,7 +4,7 @@ import "./Content.css";
 import Github from "@mui/icons-material/GitHub";
 import LinkedIn from "@mui/icons-material/LinkedIn";
 import Telegram from "@mui/icons-material/Telegram";
-import CV from "../asets/Kovalenko_CV.pdf";
+import CV from "../asets/Kovalenko_CV .pdf";
 import { Download } from "@mui/icons-material";
 import Image from "../asets/prog4.png";
 
@@ -88,7 +88,7 @@ function Content() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
             </svg>
-            Modern It Company
+            Modern It Systems
             <svg
               width="25"
               height="25"

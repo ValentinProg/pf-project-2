@@ -88,7 +88,7 @@ function Content() {
             >
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
             </svg>
-            AquaLux Systems
+            Modern It Company
             <svg
               width="25"
               height="25"

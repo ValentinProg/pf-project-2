@@ -8,9 +8,13 @@
   div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 1rem ;
     border-bottom: 1px solid rgb(216, 216, 216);
+  }
+
+  div:first-child {
+    align-items: center;
   }
 
   div:first-child {
@@ -20,7 +24,6 @@
   img {
     width: auto;
     height: 15rem;
-    border-radius: 0.2rem;
     min-width: 12.5rem;
   }
 
@@ -28,4 +31,11 @@
     font-size: 1rem;
     padding-bottom: 0.5rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    & div {
+      align-items: center;
+    }
+  }
 }
+

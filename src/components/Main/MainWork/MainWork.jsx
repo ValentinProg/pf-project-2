@@ -5,10 +5,12 @@ export const MainWork = () => {
   return (
     <div className={styles.mainWork}>
       <h2>Work Experience</h2>
-      <span>
-        Frontend Developer &bull; Modern It Systems &bull; Fulltime &bull; Aug
-        2022 - Oct 2022
-      </span>
+      <div>
+        <span className={styles.developer}>Frontend Developer </span>
+        <span className={styles.workPlace}>
+          &bull; Modern It Systems &bull; Fulltime &bull; Aug 2022 - Oct 2022
+        </span>
+      </div>
       <ul>
         <li>
           Created user interfaces and configured the logic of user interaction

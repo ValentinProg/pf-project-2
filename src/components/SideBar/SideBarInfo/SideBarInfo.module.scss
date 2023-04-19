@@ -1,0 +1,31 @@
+.sideBarInfo {
+
+  span {
+    color: grey;
+    font-size: 1rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem ;
+    border-bottom: 1px solid rgb(216, 216, 216);
+  }
+
+  div:first-child {
+    border: none;
+  }
+
+  img {
+    width: auto;
+    height: 15rem;
+    border-radius: 0.2rem;
+    min-width: 12.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}

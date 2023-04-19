@@ -1,12 +1,14 @@
 import "./App.css";
-import Content from "./components/Content";
+import { SideBar } from "./components/SideBar/SideBar";
+import { Main } from "./components/Main/Main";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Content />
+      <SideBar />
+      <Main />
     </div>
   );
-}
+};
 
 export default App;

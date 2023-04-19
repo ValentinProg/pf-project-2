@@ -1,0 +1,42 @@
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  img {
+    height: 1rem;
+  }
+}
+
+.mainButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    background-color: #0a66c2;
+    color: white;
+    transition: all 0.3s ease-out;
+    padding: 0.3rem 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 0.5rem;
+
+    &:hover {
+      background-color: #004182;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    img {
+      display: none;
+    }
+  }
+}

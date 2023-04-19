@@ -1,0 +1,27 @@
+.sideBarContacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1.5rem;
+
+  svg {
+    height: 1.8rem;
+    &:hover {
+      transition: all 0.3s ease-out;
+    }
+  }
+}
+
+.github:hover {
+  fill: rgb(155, 81, 224);
+}
+
+.linkedin :hover {
+  fill: #0a66c2;
+}
+
+.telegram :hover {
+  fill: #3390ec;
+}
+
+

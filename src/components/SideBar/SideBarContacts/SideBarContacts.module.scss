@@ -10,18 +10,18 @@
       transition: all 0.3s ease-out;
     }
   }
-}
 
-.github:hover {
-  fill: rgb(155, 81, 224);
-}
+  a:hover {
+    .github {
+      fill: rgb(155, 81, 224);
+    }
+    .linkedin {
+      fill: #0a66c2;
+    }
 
-.linkedin :hover {
-  fill: #0a66c2;
+    .telegram {
+      fill: #3390ec;
+    }
+  }
 }
-
-.telegram :hover {
-  fill: #3390ec;
-}
-
 

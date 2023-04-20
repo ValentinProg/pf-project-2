@@ -19,7 +19,6 @@
   button {
     background-color: #0a66c2;
     color: white;
-    transition: all 0.3s ease-out;
     padding: 0.3rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
@@ -31,6 +30,17 @@
 
     &:hover {
       background-color: #004182;
+      transition: all 0.3s ease-out;
+    }
+
+    .buttonContent {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      span {
+        margin-left: 0.5rem;
+      }
     }
   }
 

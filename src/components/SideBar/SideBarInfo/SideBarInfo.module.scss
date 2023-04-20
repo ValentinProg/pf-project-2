@@ -5,37 +5,35 @@
     font-size: 1rem;
   }
 
-  div {
+  section {
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 1rem ;
+    padding: 1rem;
     border-bottom: 1px solid rgb(216, 216, 216);
-  }
 
-  div:first-child {
-    align-items: center;
-  }
+    &:first-child {
+      align-items: center;
+    }
 
-  div:first-child {
-    border: none;
-  }
+    &:first-child {
+      border: none;
+    }
 
-  img {
-    width: auto;
-    height: 15rem;
-    min-width: 12.5rem;
-  }
-
-  h2 {
-    font-size: 1rem;
-    padding-bottom: 0.5rem;
+    img {
+      width: auto;
+      height: 15rem;
+      min-width: 12.5rem;
+    }
+    h2 {
+      font-size: 1rem;
+      padding-bottom: 0.5rem;
+    }
   }
 
   @media only screen and (max-width: 600px) {
-    & div {
+    & section {
       align-items: center;
     }
   }
 }
-

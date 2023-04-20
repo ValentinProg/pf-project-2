@@ -6,9 +6,9 @@ import { SideBarContacts } from "./SideBarContacts/SideBarContacts";
 
 export const SideBar = () => {
   return (
-    <div className={styles.sideBar}>
+    <aside className={styles.sideBar}>
       <SideBarInfo />
       <SideBarContacts/>
-    </div>
+    </aside>
   );
 };

@@ -6,7 +6,7 @@ import { ReactComponent as Telegram } from "../../../assets/telegram.svg";
 
 export const SideBarContacts = () => {
   return (
-    <div className={styles.sideBarContacts}>
+    <section className={styles.sideBarContacts}>
       <a href="https://github.com/ValentinProg">
         <Github className={styles.github} />
       </a>
@@ -16,6 +16,6 @@ export const SideBarContacts = () => {
       <a href="https://t.me/ValentinKovalenko">
         <Telegram className={styles.telegram} />
       </a>
-    </div>
+    </section>
   );
 };

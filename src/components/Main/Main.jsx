@@ -6,10 +6,10 @@ import { MainWork } from "./MainWork/MainWork";
 
 export const Main = () => {
   return (
-    <div className={styles.main}>
+    <main className={styles.main}>
       <MainHeader />
       <MainSkills />
       <MainWork />
-    </div>
+    </main>
   );
 };

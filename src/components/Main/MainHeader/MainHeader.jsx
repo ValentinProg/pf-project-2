@@ -5,7 +5,7 @@ import Load from "../../../assets/load.svg";
 
 export const MainHeader = () => {
   return (
-    <div className={styles.mainHeader}>
+    <header className={styles.mainHeader}>
       <h2>About</h2>
       <div className={styles.mainButtons}>
         <a href={CV} download="Kovalenko_CV">
@@ -15,6 +15,6 @@ export const MainHeader = () => {
           </button>
         </a>
       </div>
-    </div>
+    </header>
   );
 };

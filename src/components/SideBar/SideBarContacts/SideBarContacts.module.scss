@@ -3,24 +3,35 @@
   align-items: center;
   justify-content: space-around;
   padding: 1.5rem;
-
+ 
   svg {
     height: 1.8rem;
     &:hover {
       transition: all 0.3s ease-out;
+      transform: scale(1.2);
+      
     }
   }
 
   a:hover {
     .github {
-      fill: rgb(155, 81, 224);
+      fill: white;
+      stroke: rgb(155, 81, 224);
+      background-color: rgb(155, 81, 224);
+      border-radius: 50%;
     }
     .linkedin {
-      fill: #0a66c2;
+      fill: white;
+      stroke: #0a66c2;
+      background-color: #0a66c2;
+      border-radius: 10%;
     }
 
     .telegram {
-      fill: #3390ec;
+      fill: white;
+      stroke: #3390ec;
+      background-color: #3390ec;
+      border-radius: 50%;
     }
   }
 }

@@ -3,14 +3,14 @@ import styles from "./MainWork.module.scss";
 
 export const MainWork = () => {
   return (
-    <div className={styles.mainWork}>
+    <section className={styles.mainWork}>
       <h2>Work Experience</h2>
-      <div>
+      <article>
         <span className={styles.developer}>Frontend Developer </span>
         <span className={styles.workPlace}>
           &bull; Modern It Systems &bull; Fulltime &bull; Aug 2022 - Oct 2022
         </span>
-      </div>
+      </article>
       <ul>
         <li>
           Created user interfaces and configured the logic of user interaction
@@ -21,6 +21,6 @@ export const MainWork = () => {
         </li>
         <li>Developed of the data storage logic with Zustand</li>
       </ul>
-    </div>
+    </section>
   );
 };

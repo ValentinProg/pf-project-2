@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import styles from "./MainHeader.module.scss";
 import CV from "../../../assets/Kovalenko_CV.pdf";
 import Load from "../../../assets/load.svg";
-import PulseLoader from "react-spinners/PulseLoader";
+import Check from "../../../assets/check1.svg";
+import Smile from "../../../assets/smile1.svg";
 
 export const MainHeader = () => {
   const [loading, setLoading] = useState(false);
@@ -21,8 +22,9 @@ export const MainHeader = () => {
           <button onClick={() => setLoading(true)}>
             {loading ? (
               <div className={styles.buttonContent}>
-                <PulseLoader color={"white"} size={5} />
-                <span>Loading</span>
+                <img src={Check}/>
+                <span>Done</span>
+                <img src={Smile}/>
               </div>
             ) : (
               <div className={styles.buttonContent}>

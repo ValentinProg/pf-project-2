@@ -6,10 +6,6 @@
  
   svg {
     height: 1.8rem;
-    &:hover {
-      transition: all 0.3s ease-out;
-      transform: scale(1.2);
-    }
   }
 
   a:hover {
@@ -18,12 +14,17 @@
       stroke: rgb(155, 81, 224);
       background-color: rgb(155, 81, 224);
       border-radius: 50%;
+      stroke-width: 0.1;
+
+      // transition: all 0.3s ease-out;
+      // transform: scale(1.1);
     }
     .linkedin {
       fill: white;
       stroke: #0a66c2;
       background-color: #0a66c2;
       border-radius: 10%;
+
     }
 
     .telegram {
@@ -31,6 +32,7 @@
       stroke: #3390ec;
       background-color: #3390ec;
       border-radius: 50%;
+      
     }
   }
 }

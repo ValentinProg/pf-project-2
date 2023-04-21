@@ -26,11 +26,14 @@
     align-items: center;
     justify-content: center;
     border: none;
-    gap: 0.5rem;
-
+  
     &:hover {
       background-color: #004182;
       transition: all 0.3s ease-out;
+    }
+
+    &:active {
+      transform: translate(0rem, 0.75rem);
     }
 
     .buttonContent {
@@ -38,8 +41,13 @@
       align-items: center;
       justify-content: space-between;
 
+      img {
+        height: 1.4rem;
+      }
+
       span {
         margin-left: 0.5rem;
+        margin-right: 0.5rem;
       }
     }
   }
@@ -50,3 +58,9 @@
     }
   }
 }
+
+
+
+
+
+

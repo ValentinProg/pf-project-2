@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./MainHeader.module.scss";
 import CV from "../../../assets/Kovalenko_CV.pdf";
-import Load from "../../../assets/load.svg";
+import Load from "../../../assets/load1.svg";
 import Check from "../../../assets/check1.svg";
 import Smile from "../../../assets/smile1.svg";
 
@@ -28,7 +28,7 @@ export const MainHeader = () => {
               </div>
             ) : (
               <div className={styles.buttonContent}>
-                <img src={Load} />
+                <img src={Load} className={styles.load}/>
                 <span>Download CV</span>
               </div>
             )}
